@@ -130,7 +130,7 @@ st.markdown("💡 **Tip: Centred images with a plain background work best.**")
 
 st.sidebar.header("About")
 st.sidebar.info(
-    "**Model**: CNN \n"
+    "**Model**: CNN  \n"
     "**Dataset**: Fashion-MNIST  \n"
     "**Frameworks**: TensorFlow/Keras & Streamlit  \n"
     "**Code**: [GitHub](https://github.com/MarpakaPradeepSai/CNN-Fashion-MNIST-Image-Classification)"
