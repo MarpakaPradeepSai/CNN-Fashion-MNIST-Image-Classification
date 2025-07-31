@@ -93,8 +93,7 @@ st.markdown(
 @st.cache_resource
 def load_keras_model():
     """Load pre-trained model from GitHub."""
-    url = ("https://github.com/JustToTryModels/Cnn/raw/main/Model/"
-           "fashion_mnist_best_model.keras")
+    url = ("https://github.com/MarpakaPradeepSai/CNN-Fashion-MNIST-Image-Classification/raw/main/Model/fashion_mnist_best_model.keras")
     try:
         with requests.get(url, stream=True) as r:
             r.raise_for_status()
