@@ -93,7 +93,7 @@ st.markdown(
 @st.cache_resource
 def load_keras_model():
     """Load pre-trained model from GitHub."""
-    url = ("https://github.com/MarpakaPradeepSai/CNN-Fashion-MNIST-Image-Classification/raw/main/Model/fashion_mnist_best_model.keras")
+    url = ("https://github.com/MarpakaPradeepSai/CNN-Fashion-MNIST-Image-Classifier/raw/main/Model/fashion_mnist_best_model.keras")
     try:
         with requests.get(url, stream=True) as r:
             r.raise_for_status()
@@ -133,7 +133,7 @@ st.sidebar.info(
     "**Model**: CNN  \n"
     "**Dataset**: Fashion-MNIST  \n"
     "**Frameworks**: TensorFlow/Keras & Streamlit  \n"
-    "**Code**: [GitHub](https://github.com/MarpakaPradeepSai/CNN-Fashion-MNIST-Image-Classification)"
+    "**Code**: [GitHub](https://github.com/MarpakaPradeepSai/CNN-Fashion-MNIST-Image-Classifier)"
 )
 
 uploaded_file = st.file_uploader(
